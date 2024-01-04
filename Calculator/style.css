@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Play",sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to right,#ffb1ee,#88d8bd,#ffd86c);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.cal{
+    background: #3a4452;
+    padding:30px;
+    border-radius: 5px;
+    box-shadow: -4px -3px 5px rgba(77, 252, 61, 0.89), 5px 6px 8px 4px rgb(0,0,0,0.7);
+    
+}
+.cal form input{
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow: -4px -3px 5px rgb(255,255,255 ,0.4),1px 2px 2px 1px rgb(0,0,0,0.4);
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+form .dis input{
+    box-shadow: none;
+    background: #8fa2bb;
+    width: 100%;
+    text-align: right;
+    font-size: 28px;
+}
+
+.cal form input.equal{
+    width: 143px;
+}
